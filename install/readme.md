@@ -51,9 +51,7 @@ sudo systemctl status nip05
 
 You should see:
 
-``` text
 Active: active (running)
-```
 
 ## 4. Useful commands
 
