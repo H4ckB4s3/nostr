@@ -59,9 +59,9 @@ Active: active (running)
 
   Command                            Purpose
   ---------------------------------- ----------------------------
-  `sudo systemctl start nip05`       Start the API
-  `sudo systemctl stop nip05`        Stop the API
-  `sudo systemctl restart nip05`     Restart the API
-  `sudo systemctl status nip05`      Check the service status
-  `sudo journalctl -u nip05 -f`      Watch live logs
-  `sudo journalctl -u nip05 -n 50`   Show the last 50 log lines
+  ``` bashsudo systemctl start nip05```       Start the API
+  ``` bashsudo systemctl stop nip05```        Stop the API
+  ``` bashsudo systemctl restart nip05```     Restart the API
+  ``` bashsudo systemctl status nip05```      Check the service status
+  ``` bashsudo journalctl -u nip05 -f```      Watch live logs
+  ``` bashsudo journalctl -u nip05 -n 50```   Show the last 50 log lines
