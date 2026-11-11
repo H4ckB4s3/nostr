@@ -57,11 +57,11 @@ Active: active (running)
 
 ## 4. Useful commands
 
-  Command                            Purpose
-  ---------------------------------- ----------------------------
-``` bash sudo systemctl start nip05```       Start the API
-``` bash sudo systemctl stop nip05```        Stop the API
-``` bash sudo systemctl restart nip05```     Restart the API
-``` bash sudo systemctl status nip05```      Check the service status
-``` bash sudo journalctl -u nip05 -f```      Watch live logs
-``` bash sudo journalctl -u nip05 -n 50```   Show the last 50 log lines
+| Command                              | Purpose                      |
+|--------------------------------------|------------------------------|
+| `sudo systemctl start nip05`         | Start the API                |
+| `sudo systemctl stop nip05`          | Stop the API                 |
+| `sudo systemctl restart nip05`       | Restart the API              |
+| `sudo systemctl status nip05`        | Check the service status     |
+| `sudo journalctl -u nip05 -f`        | Watch live logs              |
+| `sudo journalctl -u nip05 -n 50`     | Show the last 50 log lines   |
